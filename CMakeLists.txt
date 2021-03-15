@@ -6,8 +6,10 @@ project(InstantMeshesForMaya)
 set(MAYADIR "/usr/autodesk/maya")
 set(MAYAINCLUDEDIR ${MAYADIR}/include)
 
+
 include_directories(
   ${MAYAINCLUDEDIR}
+  "instant-mesh/src"
 )
 
 set(SOURCEDIR "src")
